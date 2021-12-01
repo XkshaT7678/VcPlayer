@@ -5,7 +5,7 @@ from VcPlayer.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
 from VcPlayer.services.callsmusic import run
 
 response = requests.get(BG_IMAGE)
-file = open("./etc/foreground.png", "wb")
+file = open("VcPlayer/20211130_223431.jpg", "wb")
 file.write(response.content)
 file.close()
 
